@@ -1,0 +1,19 @@
+
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Modèle local volumineux
+modele_sentiment/
+
+# Secrets et configuration locale
+.env
+.streamlit/secrets.toml
+
+# Fichiers temporaires
+*.log
+.DS_Store
+test.csv
+test_sentiment.xlsx
